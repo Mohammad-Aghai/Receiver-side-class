@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border: 3px solid;
+  border-style: double;
+  text-align: center;
+  border-collapse: collapse;
+}
+h2 {
+  margin: 10px;
+}
+th, td {
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid;
+}
+
+tr:nth-child(even) {
+  background-color: aqua;
+}
